@@ -26,7 +26,6 @@ type Book = {
     return ``;
 }
   
-  // Example usage
   const exampleBook: Book = {
     title: {
       mainTitle: "The Hitchhiker's Guide to the Galaxy",
