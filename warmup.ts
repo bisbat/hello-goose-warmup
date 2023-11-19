@@ -21,15 +21,9 @@ type Book = {
   };
   
   function getBookSummary(book: Book): string {
-    const {
-      title: { mainTitle },
-      author: { firstName, lastName,birthDetails:{age},residence:{country:{city}} },
-      genre,
-    } = book;
+    //coding here
   
-    return `Book: ${mainTitle} by ${firstName} ${lastName}. 
-    Author: He ${age} years old now and he  live in ${city} city.
-    Genre: ${genre}.`;
+    return ``;
 }
   
   // Example usage
